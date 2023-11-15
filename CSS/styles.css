@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    
+   background-color: #E5E1D6;
 }
 
 .bg {
@@ -26,6 +26,7 @@ ul {
 
 .hero {
     position: relative;
+    margin-bottom: 5rem;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
 }
 
 .hero img {
-    max-height: 300px;
+    height: 300px;
     display: flex;
     object-fit: cover;
     width: 100%;
