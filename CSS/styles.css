@@ -70,3 +70,6 @@ li p {
 model-viewer {
     height: 300px;
 }
+.HotspotAnnotation {
+    max-width: 20ch;
+}
