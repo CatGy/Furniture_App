@@ -37,6 +37,7 @@ h1 {
     text-align: center;
     line-height: 300px;
     font-size: 3em;
+    text-shadow: 1px 1px 4px rgb(0, 0, 10);
 }
 
 .hero img {
