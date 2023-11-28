@@ -1,21 +1,14 @@
 
-// simple change model (TO CREATE 3 MODELS WITH DIF COLORS)
+// simple change model
 document.getElementById("change-colour").addEventListener("click", function() {
-    document.getElementById("model").src = "/models/teal_arm_chair.glb";
+    document.getElementById("model").src = "/models/teal.glb";
 });
-
-// example with showing content
-document.getElementById("change-colour").addEventListener("click", function() {
-    document.getElementById("model-info").style.display = "block";
+document.getElementById("sofa").addEventListener("click", function() {
+    document.getElementById("model").src = "/models/teal.glb";
 });
-
-// example with multiple models
-var myModels = ["/models/mustard_arm_chair.glb", "/models/purple_arm_chair", "/models/teal_arm_chair.glb",]
-var counter = 0;
-document.getElementById("change-colour").addEventListener("click", function() {
-    counter++;
-    if (counter==3) { 
-        counter = 0;
-    }
-    document.getElementById("model").src = myModels[counter];
+document.getElementById("chair").addEventListener("click", function() {
+    document.getElementById("model").src = "/models/orange.glb";
+});
+document.getElementById("puff").addEventListener("click", function() {
+    document.getElementById("model").src = "/models/teal.glb";
 });
