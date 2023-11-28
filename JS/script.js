@@ -1,7 +1,7 @@
 
 // simple change model (TO CREATE 3 MODELS WITH DIF COLORS)
 document.getElementById("change-colour").addEventListener("click", function() {
-    document.getElementById("model").src = "/models/teal.glb";
+    document.getElementById("model").src = "/models/teal_arm_chair.glb";
 });
 
 // example with showing content
@@ -10,7 +10,7 @@ document.getElementById("change-colour").addEventListener("click", function() {
 });
 
 // example with multiple models
-var myModels = ["/models/orange.glb", "/models/teal.glb", "/models/orange.glb", "/models/teal.glb",]
+var myModels = ["/models/mustard_arm_chair.glb", "/models/purple_arm_chair", "/models/teal_arm_chair.glb",]
 var counter = 0;
 document.getElementById("change-colour").addEventListener("click", function() {
     counter++;

@@ -28,6 +28,9 @@ ul {
     position: relative;
     margin-bottom: 5rem;
 }
+element.style {
+    text-shadow: 1px 1px 4px black;
+}
 
 h1 {
     position: absolute;
@@ -37,7 +40,6 @@ h1 {
     text-align: center;
     line-height: 300px;
     font-size: 3em;
-    text-shadow: 1px 1px 4px rgb(0, 0, 10);
 }
 
 .hero img {
