@@ -27,17 +27,15 @@ ul {
 .hero {
     position: relative;
     margin-bottom: 5rem;
-}
-element.style {
-    text-shadow: 1px 1px 4px black;
-}
 
+}
 h1 {
     position: absolute;
     color: aliceblue;
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    text-shadow:3px 3px 7px black;
     line-height: 300px;
     font-size: 3em;
 }
