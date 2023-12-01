@@ -12,15 +12,15 @@ function registerElements(elemId, elemModel, glb)
     });
 }
 
-registerElements("sofa_black", "arm_chair_model", "green_arm_chair");
-registerElements("sofa_white", "arm_chair_model", "mustard_arm_chair");
-registerElements("sofa_fushia", "arm_chair_model", "purple_arm_chair");
+registerElements("green_arm_chair", "chair_model", "green_arm_chair");
+registerElements("mustard_arm_chair", "chair_model", "mustard_arm_chair");
+registerElements("purple_arm_chair", "chair_model", "purple_arm_chair");
 
 
-registerElements("brown_sofa", "sofa_model", "teal_arm_chair");
-registerElements("sofa_white", "sofa_model", "brown_sofa");
-registerElements("sofa_fushia", "sofa_model", "Burgundy_leather_sofa");
+registerElements("burgundy_sofa", "sofa_model", "burgundy_sofa");
+registerElements("beige_sofa", "sofa_model", "beige_sofa");
+registerElements("orange_sofa", "sofa_model", "orange_sofa");
 
-registerElements("chair_teal", "chair_model", "teal_arm_chair");
-registerElements("sofa_white", "sofa_model", "brown_sofa");
-registerElements("sofa_fushia", "sofa_model", "Burgundy_leather_sofa");
+registerElements("black_bean_bag", "bean_bag_model", "black_bean_bag");
+registerElements("white_bean_bag", "bean_bag_model", "white_bean_bag");
+registerElements("fushia_bean_bag", "bean_bag_model", "fushia_bean_bag");
