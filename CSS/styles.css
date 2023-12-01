@@ -76,3 +76,7 @@ model-viewer {
 .HotspotAnnotation {
     max-width: 20ch;
 }
+
+.options-grid img {
+    width: 70px;
+}
