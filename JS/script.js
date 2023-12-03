@@ -8,7 +8,7 @@ function registerElements(elemId, elemModel, glb)
 {
     document.getElementById(elemId).addEventListener("click", function() {
         console.log("CLICKED")
-        document.getElementById(elemModel).src = `models/${glb}.glb`;
+        document.getElementById(elemModel).src = `glb_models/${glb}.glb`;
     });
 }
 
